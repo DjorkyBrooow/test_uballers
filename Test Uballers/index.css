@@ -1,0 +1,156 @@
+body{
+    font-size: .7em;;
+    font-family: Trebuchet MS,sans-serif;
+    width:340px;
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(61,94,149);
+    padding-left:15px;
+    padding-top:5px;
+    /* height: 55px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(55px,auto);
+    grid-column-gap: 10px;
+}
+
+#body{
+    background: linear-gradient(white,rgb(212,218,231));
+    padding-left: 15px;
+}
+
+.loginSpan{
+    color:white;
+    width: fit-content;
+}
+
+.loginInput{
+    margin-right: 0px;
+    font-size: .95em;
+    width: 90px;
+}
+
+.loginLabel{
+    font-size: .7em;
+}
+
+#loginEmail{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#loginPassword{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#infoForget{
+    color:rgb(122,150,190);
+    font-size:.9em;
+    text-decoration: none;
+}
+
+#loginButton{
+    background-color: rgb(69,109,176);
+    border-color: rgb(46,79,128);
+    width:100px;
+    height: 2em;
+    color: white;
+    font-weight: bold;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#title{
+    font-size: 2.25em;
+    margin-bottom: 0px;
+    margin-top: 35px;
+}
+
+#subtitle{
+    font-size:1.4em;
+    margin-top: 5px;
+}
+
+.inputName{
+    width : 138px;
+    margin-bottom: 7px;
+}
+
+#firstName{
+    margin-right:6px;
+}
+
+.inputOther{
+    width:300px;
+    margin-bottom: 7px;
+}
+
+.signinInput{
+    height: 28px;
+}
+
+input{
+    border-color: rgb(209,215,223);
+    border-radius:4px;
+    border-width: 2px;
+    padding-left:8px;
+}
+
+#birthDiv{
+    margin-top: 20px;
+}
+
+#birthTitle{
+    font-size:1.3em;
+    font-weight: bold;
+}
+
+#birthInput{
+    margin-top:15px;
+}
+
+#birthText{
+    font-size: .7em;
+    width:40px;
+    height: 15px;
+}
+
+#whyBDay{
+    text-align:center;
+    width:50%;
+    margin-left:40%;
+    
+}
+
+#radioDiv{
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+
+#CGU{
+    width: 230px;
+    font-size:.75em;
+    color:rgb(138,135,135);
+    margin-bottom: 15px;
+}
+
+#CGU a{
+    color:rgb(74,113,180);
+    text-decoration: none;
+}
+
+#signinButton{
+    width: 140px;
+    height: 33px;
+    font-weight: bold;
+    background-color: rgb(112,149,77);
+    color: white;
+    border: 1px solid rgb(70,95,37);
+    border-radius: 3px;
+    margin-bottom: 70px;
+    
+}

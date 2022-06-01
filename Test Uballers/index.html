@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/x-icon" href="logo_uballers.png" />
+    <title>Test - Uballers</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <form action="login.php" method="post" id="login">
+            <span id="loginEmail" class="loginSpan">
+                <label class="loginLabel">Adresse e-mail ou mobile</label>
+                <input type="text" placeholder="Votre login" class="loginInput" name="login">
+            </span>
+            <span id="loginPassword" class="loginSpan">
+                <label class="loginLabel">Mot de passe</label>
+                <input type="password" placeholder="Votre mot de passe" class="loginInput" name="password">
+                <a id="infoForget" href="infoForget.php">Informations de compte oubliées ?</a>
+            </sapn>
+            <span>
+                <button id="loginButton" type="submit">Connexion</button>
+            </span>
+        </form>
+    </header>
+    <div id="body">
+        <h2 id="title">Inscription</h2>
+        <h3 id="subtitle">C'est gratuit (et ça le restera toujours)</h3>
+        <form action="signin.php" method="post" id="signin">
+            <span>
+                <input type="text" placeholder="Prénom" name="firstName" id="firstName" class="inputName signinInput">
+            </span>
+            <span>
+                <input type="text" placeholder="Nom de famille" name="name" id="name" class="inputName signinInput">
+            </span>
+            <div>
+                <input type="text" placeholder="Numéro de mobile ou email" name="login" id="signinEmail" class="inputOther signinInput">
+            </div>
+            <div>
+                <input type="text" placeholder="Confirmer numéro de mobile ou email" name="verifLogin" id="verifEmail" class="inputOther signinInput">
+            </div>
+            <div>
+                <input type="password" placeholder="Nouveau mot de passe" name="password" id="signinPassword" class="inputOther signinInput">
+            </div>
+            <div id="birthDiv">
+                <div>
+                    <label id="birthTitle">Date de naissance</label>
+                </div>
+                <span>
+                    <input type="date" name="birthday" id="birthInput">
+                </span>
+                <span id="birthText" onmouseover="displayText()" onmouseout="hideText()">Pourquoi indiquer ma date de naissance ?</span>
+                <div id="whyBDay" style="visibility:hidden">
+                    Car nous avons besoin de connaître votre âge pour vous présenter des offres adéquates
+                </div>
+            </div>
+            <div id="radioDiv">
+                <span>
+                    <input type="radio" name="sex" value="woman" class="radioInput">
+                    <label for="woman">Femme</label>
+                </span>
+                <span>
+                    <input type="radio" name="sex" value="man" class="radioInput">
+                    <label for="man">Homme</label>
+                </span>
+            </div>
+            <div id="CGU">
+                <p>En cliquant sur Inscription, vous acceptez nos <a href="https://uballers.com/conditions">Conditions</a> et indiquez que vous avez lu notre <a href="https://uballers.com/conditions">Politique d'utilisation des données</a>, y compris notre <a href="https://uballers.com/conditions">Utilisation des coookies</a>. Vous pourrez recevoir des notifications par texto de la part de Facebook et vous pouvez vous désabonner à tout moment.</p>
+            </div>
+            <button type="submit" id="signinButton">Inscription</button>
+        </form>
+    </div>
+
+</body>
+</html>
