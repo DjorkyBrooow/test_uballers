@@ -27,4 +27,4 @@ echo "mise à jour réussie";
 
 ?>
 
-<a href="index.html"><button>S'inscrire</button></a>
+<a href="index.html"><button>Retour</button></a>
