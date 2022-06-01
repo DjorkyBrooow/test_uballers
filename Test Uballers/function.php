@@ -5,8 +5,9 @@
 function connectSQL(){
     $DBlog="root";
     $DBpass="";
+    $DBhost="localhost:3308";
     try{
-        $pdo = new PDO("mysql:host=localhost:3308", $DBlog, $DBpass);
+        $pdo = new PDO("mysql:host='$DBhost'", $DBlog, $DBpass);
     }
     catch(PDOException $pdoe){
         echo "*";
