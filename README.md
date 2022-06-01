@@ -23,8 +23,8 @@
 
 ## Temps passé dessus (approximations)
 
-Total : 6h45
-HTML : 45 min
-CSS : 3h (dont 1h au moins où j'étais bloqué pour le header
-PHP : 2h (dont 30 min de SQL)
-JS : 1h (infructueuse puisque je n'ai pas réussi à implémenter ce que je voulais)
+- Total : 6h45
+- HTML : 45 min
+- CSS : 3h (dont 1h au moins où j'étais bloqué pour le header
+- PHP : 2h (dont 30 min de SQL)
+- JS : 1h (infructueuse puisque je n'ai pas réussi à implémenter ce que je voulais)
