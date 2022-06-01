@@ -20,6 +20,9 @@
 * La partie CSS du texte de la date de naissance
   * J'ai essayé d'afficher un texte quand on passe le curseur dessus
   * Je n'ai pas réussi car je n'arrivais pas à modifier la visibilité avec JavaScript
+* Le format de la date
+  * Je n'ai pas réussi à afficher la date comme attendu
+
 
 ## Temps passé dessus (approximations)
 
