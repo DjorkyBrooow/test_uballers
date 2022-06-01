@@ -7,7 +7,7 @@ function connectSQL(){
     $DBpass="";
     $DBhost="localhost:3308";
     try{
-        $pdo = new PDO("mysql:host='$DBhost'", $DBlog, $DBpass);
+        $pdo = new PDO("mysql:host=$DBhost", $DBlog, $DBpass);
     }
     catch(PDOException $pdoe){
         echo "*";
@@ -21,7 +21,7 @@ function connectSQL(){
         exit();
     }
     try{
-        $pdo = new PDO("mysql:host=localhost:3308;dbname=test_uballers", $DBlog, $DBpass);
+        $pdo = new PDO("mysql:host=$DBhost;dbname=test_uballers", $DBlog, $DBpass);
     }
     catch(PDOException $pdoe){
         echo "*";
