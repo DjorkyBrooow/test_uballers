@@ -11,12 +11,12 @@ if (isset($_POST['name']) && isset($_POST['firstName']) && isset($_POST['login']
     $bday=$_POST['birthday'];
     $sex=$_POST['sex'];
 } else {
-    header("Location: ./index.php");
+    header("Location: ./index.html");
     exit();
 }
 
 if($log!=$verif){
-    header("Location: ./index.php");
+    header("Location: ./index.html");
     exit();
 }
 
