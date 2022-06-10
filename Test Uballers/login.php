@@ -3,7 +3,7 @@
 include("function.php");
 
 if (!isset($_POST['login']) || !isset($_POST['password'])){
-    header("Location: ./index.php");
+    header("Location: ./index.html");
     exit();
 }
 
@@ -11,7 +11,7 @@ $log=$_POST['login'];
 $pwd=$_POST['password'];
 
 if ($log=="" || $pwd==""){
-    header("Location: ./index.php");
+    header("Location: ./index.html");
     exit();
 }
 
